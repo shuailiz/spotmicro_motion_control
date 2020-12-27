@@ -1,0 +1,7 @@
+<launch>
+<!--Start the joy node-->
+<node name="joy_node" package="joy" type="joy_node" output="screen"/>
+
+<!--Start the joy node for spotmicro-->
+<node name="spotmicro_teleop_node" package="spotmicro_teleop" type="spotmicro_teleop.py" output="screen"/>
+</launch>
