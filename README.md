@@ -1,5 +1,5 @@
 # Spotmicro Motion Control
-This package contains code that controls the motions of the [spotmicro robot]([https://spotmicroai.readthedocs.io/en/latest/](https://spotmicroai.readthedocs.io/en/latest/)). The robot is printed using the [Ender5 Pro]([https://www.amazon.com/Upgrade-Creality-Upgraded-Extruder-Capricorn/dp/B081SPJ2VX/ref=sr_1_3?crid=ZD9XOPWWSXG2&dchild=1&keywords=ender+5+pro&qid=1609032821&sprefix=ender5+pro%2Caps%2C246&sr=8-3](https://www.amazon.com/Upgrade-Creality-Upgraded-Extruder-Capricorn/dp/B081SPJ2VX/ref=sr_1_3?crid=ZD9XOPWWSXG2&dchild=1&keywords=ender+5+pro&qid=1609032821&sprefix=ender5+pro%2Caps%2C246&sr=8-3)) printer.
+This package contains code that controls the motions of the [spotmicro robot](https://spotmicroai.readthedocs.io/en/latest/). The robot is printed using the [Ender5 Pro](https://www.amazon.com/Upgrade-Creality-Upgraded-Extruder-Capricorn/dp/B081SPJ2VX/ref=sr_1_3?crid=ZD9XOPWWSXG2&dchild=1&keywords=ender+5+pro&qid=1609032821&sprefix=ender5+pro%2Caps%2C246&sr=8-3) printer.
 <p align="center">
   <img src="https://raw.githubusercontent.com/shuailiz/spotmicro_motion_control/main/media/First_time_somewhat_stable_walking.gif" />
 </p>
