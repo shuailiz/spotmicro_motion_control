@@ -1,0 +1,8 @@
+<launch>
+<arg name="sim" default="false"/>
+
+<!--Start the commander node-->
+<node name="spotmicro_commander" package="spotmicro_commander" type="spot_commander" output="screen"/>
+
+<node unless="$(arg sim)" name="spotmicro_joint_state_repub" package="spotmicro_planner" type="joint_state_republisher.py" output="screen"/>
+</launch>
