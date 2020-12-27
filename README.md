@@ -4,7 +4,7 @@ This package contains code that controls the motions of the [spotmicro robot](ht
   <img src="https://raw.githubusercontent.com/shuailiz/spotmicro_motion_control/main/media/First_time_somewhat_stable_walking.gif" />
 </p>
 
-This package is intended to be used with ROS melodic. The details for each of the sub-packages are:
+This package is intended to be used with ROS melodic. This package also requires this [low level motor controller package](https://github.com/shuailiz/spotmicro_motor_control) to communicate with the servos. The details for each of the sub-packages are:
 ### spotmicro_planner
 Contains the motion planning libraries for controlling the robot's motion. Currently it contains:
 * IK solver for the robot legs given either the foot toes' positions in the base link
